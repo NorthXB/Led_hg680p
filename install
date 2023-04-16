@@ -1,0 +1,9 @@
+#!/bin/bash
+
+hgled -s
+clear
+wget -O /usr/bin/hgledon https://raw.githubusercontent.com/NorthXB/Led_hg680p/main/hgledon && chmod +x /usr/bin/hgledon
+wget -O /usr/bin/hg680p.sh https://raw.githubusercontent.com/NorthXB/Led_hg680p/main/hg680p.sh && chmod +x /usr/bin/hg680p.sh
+wget -O /usr/bin/hgled https://raw.githubusercontent.com/NorthXB/Led_hg680p/main/led_edit.sh && chmod +x /usr/bin/hgled
+hgled -r
+echo "[+] instalasi selesai..."
